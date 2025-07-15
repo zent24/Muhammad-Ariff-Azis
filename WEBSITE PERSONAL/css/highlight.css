@@ -1,0 +1,217 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EFEAD7;
+  color: #2b2b2b;
+  font-family: Arial, sans-serif;
+}
+
+#SuperWrapper, #Wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #EFEAD7;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+border-bottom: solid black 20px
+}
+
+#logo img {
+  height: 80px;
+  width: auto;
+}
+
+#navigasion a {
+  margin-left: 20px;
+	margin-bottom: 3px;
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+#navigasion a:hover {
+  color: #888;
+}
+#tajuk {
+	padding-top: 120px; 
+	font-size: 40px; 
+	font-family: "germania-one"; 
+	text-align: center;}
+
+#gambar1 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar1 img:hover {
+  transform: scale(1.1); 
+}
+#gambar1 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 10px
+}
+
+#gambar2 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar2 img:hover {
+  transform: scale(1.1); 
+}
+#gambar2 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 30px;
+	padding-top: 10px
+}
+
+#gambar3 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar3 img:hover {
+  transform: scale(1.1); 
+}
+#gambar3 {
+  float: right;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 10px
+}
+#gambar4 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar4 img:hover {
+  transform: scale(1.1); 
+}
+#gambar4 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 30px
+}
+
+#gambar5 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar5 img:hover {
+  transform: scale(1.1); 
+}
+#gambar5 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 30px;
+	padding-top: 30px
+}
+
+
+#gambar6 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar6 img:hover {
+  transform: scale(1.1); 
+}
+#gambar6 {
+float: right;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 30px;}
+
+#gambar7 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar7 img:hover {
+  transform: scale(1.1); 
+}
+#gambar7 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 30px
+}
+#gambar8 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar8 img:hover {
+  transform: scale(1.1); 
+}
+#gambar8 {
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 30px;
+	padding-top: 30px
+}
+
+#gambar9 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#gambar9 img:hover {
+  transform: scale(1.1); 
+}
+#gambar9 {
+float: right;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 10px;
+	padding-top: 30px;
+padding-bottom: 70px}
+
+#gambar {margin-bottom:50px}
