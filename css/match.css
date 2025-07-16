@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EFEAD7;
+  color: #2b2b2b;
+  font-family: Arial, sans-serif;
+}
+
+#SuperWrapper, #Wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #EFEAD7;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+border-bottom: solid black 20px
+}
+
+#logo img {
+  height: 80px;
+  width: auto;
+}
+
+#navigasion a {
+  margin-left: 20px;
+	margin-bottom: 3px;
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+#navigasion a:hover {
+  color: #888;
+}
+#tajuk {
+	padding-top: 120px; 
+	font-size: 40px; 
+	font-family: "germania-one"; 
+	text-align: center;}
+
+#kotak1 img {
+	padding-top: 10px;
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#kotak1 img:hover {
+  transform: scale(1.1); 
+}
+#kotak1 p {margin-top: 10px ;width: 440px; font-family: cutive}
+#kotak1 {
+  float: left;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 12px;
+	padding-right: 12px;
+	background-color: #BE955D
+}
+
+#kotak2 img {
+  padding-top: 10px;
+  border-radius: 21px;
+  transition: transform 0.3s ease; 
+}
+
+#kotak2 img:hover {
+  transform: scale(1.1);
+}
+#kotak2 p {margin-top: 10px ;width: 450px; font-family: cutive}
+#kotak2 {
+  float: right;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 30px;
+	padding-right: 50px;
+	
+	 float: right;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 12px;
+	padding-right: 12px;
+	background-color: #BE955D
+}
+
+
+#kotak3 img {
+  border-radius: 21px;
+  transition: transform 0.3s ease;
+}
+
+#kotak3 img:hover {
+  transform: scale(1.1);
+}
+#kotak3 p {margin-top: 10px ;width: 430px; font-family: cutive}
+#kotak3 {
+  
+  width: 450px;
+  overflow: hidden;
+  border-radius: 21px;
+padding-left: 12px;
+	margin-left: 250px;
+	padding-right: 0px;
+	margin-top: 500px;
+	padding-bottom: 10px
+		;padding-top: 12px
+		;background-color: #BE955D
+			;margin-bottom: 30px
+		
+		
+
+}
+#kotak3 h4 { width:400px}
